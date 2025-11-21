@@ -1,0 +1,25 @@
+{
+  "name": "brain_games",
+  "version": "1.0.0",
+  "description": "[![Actions Status](https://github.com/Sensacommune/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Sensacommune/frontend-project-44/actions)",
+  "main": "bin/brain-games.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true,
+  "bin": {
+    "brain_games": "bin/brain-games.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sensacommune/frontend-project-44.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sensacommune/frontend-project-44/issues"
+  },
+  "homepage": "https://github.com/Sensacommune/frontend-project-44#readme"
+}
+}
