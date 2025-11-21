@@ -1,8 +1,13 @@
 install:
 		npm ci
-		chmod +x bin/brain-games.js.
+		chmod +x bin/brain-games.js
 
 brain-games:
 			node bin/brain-games.js
 
-
+publish:
+		nmp publish --dry-run
+link:
+	npm link
+lint:
+	npx eslint .

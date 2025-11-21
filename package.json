@@ -9,7 +9,8 @@
   },
   "private": true,
   "bin": {
-    "brain_games": "bin/brain-games.js"
+    "brain_games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js"
   },
   "repository": {
     "type": "git",
