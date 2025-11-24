@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
+import runGame from '../src/runGame.js';
 import {isEven, genNum} from "../src/help.js"
 
 const genQuestion = () => {
