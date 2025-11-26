@@ -12,3 +12,4 @@ const genQuestion = () => {
     return [question, correctAns];
 }
 const description = `Answer "yes" if the number is even, otherwise answer "no".`
+runGame(description, genQuestion);
