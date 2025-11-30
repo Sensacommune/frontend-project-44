@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 
-import runGame from '../src/runGame.js';
 import {genOperation, genNum, calcNums} from "../src/help.js"
 
 const genCalcQuestions = () => {
@@ -14,4 +13,3 @@ const genCalcQuestions = () => {
     return [question, correctAnswer];
 };
 const description = 'What is the result of the expression?'
-runGame(description, genCalcQuestions)
